@@ -1,8 +1,8 @@
-package algoritmo;
+package optimización;
 
 public class Individuo {//Automaticamente cuando se crea un individuo este muta
     char[][] secuencias;
-    int maxAgregar = 3; //Es el numero maximo de GAPS que se le puede agregar en la mutación
+    int maxAgregar = 100; //Es el numero maximo de GAPS que se le puede agregar en la mutación
     
     public Individuo(char[][] entrada){
         secuencias = new char[entrada.length][];
